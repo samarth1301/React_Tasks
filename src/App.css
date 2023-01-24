@@ -12,9 +12,8 @@ body{
 .calculator{
     width: 320px;
     height: 70vh;
-    background-color: aquamarine;
     border-radius: 20px;
-    box-shadow: #141a25 20px 30px 90px 4px;
+    box-shadow: #0b0e14 20px 30px 90px 4px;
 }
 
 .calculator .display{
@@ -22,6 +21,7 @@ body{
     padding: 5px;
     background-color: #212b41;
     border-radius: 20px 20px 0 0;
+    overflow: hidden;
 }
 .calculator .display h2{
     height: 60px;
