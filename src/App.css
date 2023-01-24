@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap');
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, rgb(126, 243, 171), rgb(21, 116, 49));
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.calculator{
+    width: 320px;
+    height: 70vh;
+    background-color: aquamarine;
+    border-radius: 20px;
+    box-shadow: #141a25 20px 30px 90px 4px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.calculator .display{
+    height:30%;
+    padding: 5px;
+    background-color: #212b41;
+    border-radius: 20px 20px 0 0;
+}
+.calculator .display h2{
+    height: 60px;
+    width: 97%;
+    margin-top: 50px;
+    font-size: 40px;
+    background-color: transparent;
+    border: none;
+    font-family: 'Teko', sans-serif;
+    color: #0db387;
+    text-align: right;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.calculator .buttons{
+    background-color: #2e3951;
+    height: 70%;
+    border-radius: 0 0 20px 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.calculator .buttons input{
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    color: #96a8a0;
+    font-size: 25px;
+    border-radius: 50%;
+    margin:  5px 15px;
+    border-radius: 50%;
+    font-weight: 600;
+    font-family: 'Teko', sans-serif;
+}
+.calculator .buttons input:active{
+   background-color:#0db387;
+   color: #212b41;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.calculator .buttons .btn{
+    background: #212b41;
+    color: #0db387;
+}
+
+.calculator .buttons .equal{
+    color: #212b41;
+    background-color: #0db387;
+}
+
+.calculator .buttons .equal:active{
+    background-color: #b34a0d;
+    color: #212b41;
 }
