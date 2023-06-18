@@ -33,7 +33,7 @@ function Task4() {
           <th>Height</th>
           <th>Weight</th>
           <th>Bank</th>
-          <th>Companyt</th>
+          <th>Company</th>
         </tr>
       </thead>
       <tbody>
